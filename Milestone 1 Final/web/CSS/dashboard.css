@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on :
+    Author     : 
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020202;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h1 {
+    color: white;
+    font-size: 4em;
+}
+h2 {
+    color: whitesmoke;
+    font-size: 2em;
+}
+.logout-btn {
+    margin-top: 20px;
+    padding: 10px 80px;
+    background-color: #f0c7db;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logout-btn:hover {
+    background-color: #f0f0f0;
+}

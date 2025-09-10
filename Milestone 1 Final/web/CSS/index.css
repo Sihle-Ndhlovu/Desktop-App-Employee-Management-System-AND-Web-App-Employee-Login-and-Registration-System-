@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 06 Mar 2025, 08:58:21
+    Author     : Dineo
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020202;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    background-color: #fff0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    color: #020202;
+}
+.content h2 {
+    color: #555;
+}
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.action-buttons a {
+    text-decoration: none;
+}
+.action-buttons button {
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #f0c7db;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.action-buttons button:hover {
+    background-color: #f0f0f0;
+}
